@@ -102,6 +102,9 @@ brew install phantomjs
 # meteor
 curl https://install.meteor.com | /bin/sh
 
+# mongodb
+brew install mongodb
+
 # Remove outdated versions from the cellar.
 
 brew linkapps

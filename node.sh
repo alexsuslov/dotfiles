@@ -44,5 +44,6 @@ npm install -g generator-ember
 # backbone
 npm install -g generator-backbone
 npm install -g generator-marionette
+npm install -g generator-marionette-coffee
 # clean
 npm cache clean
