@@ -6,14 +6,27 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask acorn
+installcask airmail-amt
+installcask audiobook-builder
+installcask dash
+installcask divvy
 installcask dropbox
+installcask github
 installcask google-chrome
 installcask google-chrome-canary
+installcask hazel
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask macvim
 installcask miro-video-converter
+installcask nvalt
+installcask qlmarkdown
+installcask qlprettypatch
+installcask qlstephen
+installcask quicklook-json
+installcask sketch
+installcask sourcetree
 installcask sublime-text
 installcask the-unarchiver
 installcask tor-browser
