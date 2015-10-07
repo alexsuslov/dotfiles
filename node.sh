@@ -14,11 +14,24 @@ brew upgrade
 
 brew install node
 
+
+
+# coffee
 npm install -g coffee-script
+npm -g install js2coffee
+# jade
+npm -g install jade
+npm -g install html2jade
+
 npm install -g less
 npm install -g yo
 npm install -g gulp
 npm install -g bower
+
+# jasmine
+# http://jasmine.github.io/2.1/introduction.html
+npm install -g jasmine
+
 # mocha
 npm install -g mocha
 npm install -g mocha-phantomjs

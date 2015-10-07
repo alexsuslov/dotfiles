@@ -9,4 +9,11 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 sudo gem update --system
+
+###############################################################################
+# Sass Compass                                                                #
+###############################################################################
+# sass
+sudo gem install sass
+# Compass
 sudo gem install compass

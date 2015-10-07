@@ -13,10 +13,13 @@ brew update
 brew upgrade
 
 brew install python giflib jpeg
-# Upgrade pip itself
-pip install --upgrade pip
 
-pip install wheel virtualenvwrapper PIL
+sudo easy_install pip
+
+# Upgrade pip itself
+sudo pip install --upgrade pip
+
+sudo pip install wheel virtualenvwrapper PIL Pillow
 
 # To upgrade setuptools, which is used by pip
-pip install --upgrade setuptools
+sudo pip install --upgrade setuptools
